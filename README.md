@@ -1,14 +1,14 @@
 # Libragar
+#
+#1.
+#CodeAnyWhere, "Caw"
+#-------
+#Caw ->
 
-1.
-CodeAnyWhere, "Caw"
--------
-Caw ->
-
-git clone https://github.com/Libra-Agario/Libragar
-sudo apt install nodejs
-Y
-node -v
+#git clone https://github.com/Libra-Agario/Libragar
+#sudo apt install nodejs
+#Y
+#node -v
 ls
 cd Libragar
 ls
