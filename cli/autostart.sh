@@ -5,3 +5,4 @@ echo "press ctrl+c to interrupt autorestart"
 sleep 3
 done
 
+// delete this line and save :)
