@@ -5,7 +5,7 @@
 
 
 ## Running
-Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://youtu.be/5ZrS17s5rbQ)
+Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://youtube.com/libraa)
 
 
 1. Make sure you have node.js version 8 or greater. https://nodejs.org/ja/blog/release/v8.11.1/  choose your system bits
@@ -15,13 +15,19 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
     - If you're on Windows, `npm install -g windows-build-tools`.
     - If you're on GNU/Linux, use your package manager to install a supported C++ compiler such as GCC.
 
-3. Clone / [download](https://github.com/Luka967/OgarII/archive/master.zip) the repo.
-
-4. `npm install` in `/`.
-
-5. `cd ./cli/`
-
-6. `node index.js`
+3. ssh command. ->
+`git clone https://github.com/Libra-Agario/Libragar`
+`sudo apt install nodejs`
+`Y`
+`node -v`
+`cd Libragar`
+`npm install in`
+`sudo apt update`
+`sudo apt install build-essential`
+`sudo apt-get install manpages-dev`
+`gcc --version`
+`sudo apt-get install nano`
+`npm install pm2@latest -g`
 
 
 ## Configuring
