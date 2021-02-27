@@ -23,7 +23,9 @@ https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt    &   /Libragar/C.
 
 `git clone https://github.com/Libra-Agario/Libragar`
 
-`sudo apt install nodejs` And `Y`
+`sudo apt install nodejs`
+
+`Y`
 
 `node -v`
 
