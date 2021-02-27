@@ -86,10 +86,9 @@ output Copy + Paste + Enter ->
 
 ### 4. User Scripts + Tampermonkey Install ->
 
-1. <center><a href="https://www.tampermonkey.net" "target=_blank"><font color=Blue> Install TamperMonkey (Click)</a>
-2. Auto Script Install https://www.libragar.pw (Click) 
- 
-2.Manuel Script Install <center><a href=https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-1.5V-(developed.).js/ target=_blank><font color=Blue>Libragar Script 1.5V (Click)</a>   &   /Libragar/Libragar-Script-1.5V-(developed.).js or .txt ->> Code Select All Copy ->> Tampermonkey (+) New Script  ->>  Select All Delete and Paste.
+1. Auto Script Install https://www.libragar.pw (Click)
+
+1.(Manuel) Script Install <center><a href=https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-1.5V-(developed.).js/ target=_blank><font color=Blue>Libragar Script 1.5V (Click)</a>   &   /Libragar/Libragar-Script-1.5V-(developed.).js or .txt ->> Code Select All Copy ->> Tampermonkey (+) New Script  ->>  Select All Delete and Paste.
 
 
 ### 5. </b> Commands you can do via pm2 ssh.
