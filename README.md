@@ -1,16 +1,16 @@
 [![shield to Agar.io Private Servers guild](https://discordapp.com/api/guilds/407210435721560065/embed.png?style=shield)](https://discord.gg/XcKgShT)
 
 # :bulb: www.Libragar.pw :bulb:
-:bulb: Hi there. Here I will tell you how I created my own server. :) :bulb:
+</b>:bulb: Hi there. Here I will tell you how I created my own server. :) :bulb:</b>
 
 Original repository -> https://github.com/Adil950/OgarMulti -> for more information -> /OgarMulti/blob/master/README.md 
 
 ## Running
 Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://youtube.com/libraa)
 
-1. -> C.A.W.txt https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt
+<b>1.</b> -> C.A.W.txt https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt
 
-2.  ~/workspace -> ssh command enter. ->
+<b>2.</b>  ~/workspace -> ssh command enter. ->
 
 `git clone https://github.com/Libra-Agario/Libragar`
 
