@@ -15,6 +15,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 2. Make sure you have a C++11 compliant compiler for building uWebSockets.
     - If you're on Windows, `npm install -g windows-build-tools`.
     - If you're on GNU/Linux, use your package manager to install a supported C++ compiler such as GCC.
+    - 
 
 3.  ~/workspace -> ssh command enter. ->
 
