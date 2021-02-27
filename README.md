@@ -51,17 +51,17 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 `pm2 unstartup` 
 
-// output-> // sudo env PATH=$PATH:/home/.........
+output-> // sudo env PATH=$PATH:/home/.........
 
-// output Copy + Paste + Enter -> 
+output Copy + Paste + Enter -> 
 
 
 
 `pm2 startup`
 
-// output-> // sudo env PATH=$PATH:/home/.........
+output-> // sudo env PATH=$PATH:/home/.........
 
-// output Copy + Paste + Enter -> 
+output Copy + Paste + Enter -> 
 
 `pm2 save`
 
