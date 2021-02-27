@@ -1,8 +1,8 @@
 [![shield to Agar.io Private Servers guild](https://discordapp.com/api/guilds/407210435721560065/embed.png?style=shield)](https://discord.gg/XcKgShT)
 
-# www.Libragar.pw
-Hi :bulb:
-
+# :bulb: www.Libragar.pw :Bulb:
+Hi :bulb: Hello there. Here I will tell you how I created my own server.
+Original repository -> https://github.com/Adil950/OgarMulti -> for more information -> https://github.com/Adil950/OgarMulti/blob/master/README.md 
 
 ## Running
 Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://youtube.com/libraa)
@@ -17,13 +17,13 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 3.  ssh command. ->
 
-`git clone https://github.com/Libra-Agario/Libragar`
+workspace/ `git clone https://github.com/Libra-Agario/Libragar`
 
-`sudo apt install nodejs` And `Y`
+workspace/`sudo apt install nodejs` And `Y`
 
-`node -v`
+workspace/`node -v`
 
-`cd Libragar`
+workspace/`cd Libragar`
 
 `npm install in`
 
