@@ -49,7 +49,7 @@ https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt    &   /Libragar/C.
 
 3.1 `YourContainerName` -> `Libragar` -> `cli` -> click (Open folder)
 
-3.2 `autostart.sh` -> click (open file)  -> `then delete the entire line(only 8. line) indicated in it. SAVE and then EXIT.`
+3.2 `autostart.sh` -> click (open file)  -> `then delete the entire line(only 8. line) indicated in it. SAVE and then EXIT.` // If the required file does not appear, refresh the page (https://codeanywhere.com/editor/ Refresh(f5)
 
 ### 3.1  ~/workspace/Libragar/cli -> 
 
