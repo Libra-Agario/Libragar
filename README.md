@@ -15,22 +15,19 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
     - If you're on Windows, `npm install -g windows-build-tools`.
     - If you're on GNU/Linux, use your package manager to install a supported C++ compiler such as GCC.
 
-3. ssh command. ->
-`git clone https://github.com/Libra-Agario/Libragar`
+3.  ssh command. ->
 
-`sudo apt install nodejs`
-
-`Y`
-
-`node -v`
-`cd Libragar`
-`npm install in`
-`sudo apt update`
-`sudo apt install build-essential`
-`sudo apt-get install manpages-dev`
-`gcc --version`
-`sudo apt-get install nano`
-`npm install pm2@latest -g`
+3.1`git clone https://github.com/Libra-Agario/Libragar`
+3.2`sudo apt install nodejs` and `Y`
+3.3`node -v`
+3.4`cd Libragar`
+3.5`npm install in`
+3.6`sudo apt update`
+3.7`sudo apt install build-essential`
+3.8`sudo apt-get install manpages-dev`
+3.9`gcc --version`
+3.9`sudo apt-get install nano`
+3.0`npm install pm2@latest -g`
 
 
 ## Configuring
