@@ -81,7 +81,7 @@ output Copy + Paste + Enter ->
 
 ### 4. User Scripts + Tampermonkey Install ->
 
-<center><a href=https://www.tampermonkey.net/ target=_blank><font color=Blue> Install TamperMonkey (Click)</a>
+1. <center><a href=https://www.tampermonkey.net/ target=_blank><font color=Blue> Install TamperMonkey (Click)</a>
 
 - Auto https://www.libragar.pw (Click) 
 
