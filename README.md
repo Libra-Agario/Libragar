@@ -84,20 +84,21 @@ output Copy + Paste + Enter ->
 `pm2 save`
 
 
-### 4. User Scripts + Tampermonkey Install ->
+### 4. User Script + Tampermonkey Install ->
 
 1. Auto Script Install https://www.libragar.pw (Click)
 2. Codeanywhere -> Minions (`Container`) -> Right click -> `info` -> Left click.
 3. `To access your web application......` -> `http(s)://your-sitename.codeanyapp.com`  -> `your-sitename.codeanyapp.com` Copy. 
 4. Libragar.pw Script Edit -> Search -> replace the same ones with your own link. -> `window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://minions-libra.codeanyapp.com");`
 
-Sample -> `....core.connect("wss://minions-libra.codeanyapp.com");` // Change -> // `....core.connect("wss://your-sitename.codeanyapp.com");` // Save. Okey.
-// Manuel //
+Sample -> ....core.connect("wss://`minions-libra.codeanyapp.com`");` // Change -> // `....core.connect("wss://`your-sitename.codeanyapp.com`");` // Save. Okey.
+
+// Manuel Script //
 
 (at 1 If you could not reach the "wwww.libragar.pw" site, you can try it manually.)
 <center><a href=https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-1.5V-(developed.).js/ target=_blank><font color=Blue>Libragar Script 1.5V (Click)</a>   &   /Libragar/Libragar-Script-1.5V-(developed.).js or .txt ->> Code Select All Copy ->> Tampermonkey (+) New Script  ->>  Select All Delete and Paste.
   
-// Manuel //
+// Manuel Script //
 
 ### 5. </b> Commands you can do via pm2 ssh.
 
