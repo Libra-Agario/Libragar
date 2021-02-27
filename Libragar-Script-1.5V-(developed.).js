@@ -190,14 +190,14 @@ document.addEventListener('keydown', function(e) {
 
 document.addEventListener("keypress", function(l) { // Server Connect Small Key, " L " // "Change"; Function("L") AND L.which "108" Change = Your Key code //
     if (l.which == 108) {
-        window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://test-libraagarioyttest.codeanyapp.com"); // Libra Agar.io Test Server // Button Function L //
+        window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://minions-libra.codeanyapp.com"); // Libra Agar.io Test Server // Button Function L //
 
     }
 });
 
 document.addEventListener("keypress", function(L) { // Server Connect  Big Key, " L " // "Change"; Function("L") AND L.which "76" Change = Your Key code //
     if (L.which == 76) {
-        window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://test-libraagarioyttest.codeanyapp.com"); // Libra Agar.io Test Server // Button Function L //
+        window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://minions-libra.codeanyapp.com"); // Libra Agar.io Test Server // Button Function L //
 
     }
 });
@@ -259,7 +259,7 @@ instructions.innerHTML +=
     '<center></font></center></a><font> The page if sign-in does not appear <a href=https://Agar.io><font color=#72cb31> Refresh </font>' ;
 
 document.getElementById('id1234').addEventListener('click', function(event) {
-    window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://test-libraagarioyttest.codeanyapp.com");
+    window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://minions-libra.codeanyapp.com");
 });
 
 
