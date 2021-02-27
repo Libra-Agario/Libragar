@@ -83,8 +83,6 @@ output Copy + Paste + Enter ->
 
 `pm2 save`
 
-`pm2 log 0 --lines n`
-
 
 ### 4. User Scripts + Tampermonkey Install ->
 
@@ -95,6 +93,8 @@ output Copy + Paste + Enter ->
 
 
 ### 5. </b> Commands you can do via pm2 ssh.
+
+`pm2 log 0 --lines n`
 
 Sample 1 ->  `pm2 send 0 'players'`
 
