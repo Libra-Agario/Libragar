@@ -59,7 +59,7 @@ https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt    &   /Libragar/C.
 
 `pm2 unstartup` 
 
-sample output -> // `sudo env PATH=$PATH:/................`
+sample output! -> // `sudo env PATH=$PATH:/................`
 
 output Copy + Paste + Enter -> 
 
@@ -67,7 +67,7 @@ output Copy + Paste + Enter ->
 
 `pm2 startup`
 
-sample output -> // `sudo env PATH=$PATH:/................`
+sample output! -> // `sudo env PATH=$PATH:/................`
 
 output Copy + Paste + Enter -> 
 
