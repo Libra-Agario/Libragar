@@ -94,7 +94,7 @@ output Copy + Paste + Enter ->
 
 ### 5. </b> Commands you can do via pm2 ssh.
 
-for the feedback -> `pm2 log 0 --lines n`
+for the feedback -> `pm2 log 0 --lines n` (CTRL+C = Log Exit)
 
 Sample 1 ->  `pm2 send 0 'players'`
 
