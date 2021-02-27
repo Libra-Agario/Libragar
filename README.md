@@ -3,7 +3,7 @@
 # :bulb: www.Libragar.pw :Bulb:
 Hi :bulb: Hello there. Here I will tell you how I created my own server.
 
-Original repository -> https://github.com/Adil950/OgarMulti -> for more information -> https://github.com/Adil950/OgarMulti/blob/master/README.md 
+Original repository -> https://github.com/Adil950/OgarMulti -> for more information -> /OgarMulti/blob/master/README.md 
 
 ## Running
 Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://youtube.com/libraa)
