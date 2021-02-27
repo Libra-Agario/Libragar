@@ -20,8 +20,11 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 -`sudo apt install nodejs`
 -`Y`
 `node -v`
+
 `cd Libragar`
+
 `npm install in`
+
 `sudo apt update`
 `sudo apt install build-essential`
 `sudo apt-get install manpages-dev`
