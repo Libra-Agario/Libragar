@@ -85,7 +85,7 @@ output Copy + Paste + Enter ->
 
 - Auto https://www.libragar.pw (Click) 
 
-- Manuel <center><a href=https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-1.5V-(developed.).js/ target=_blank><font color=Blue>Libragar Script 1.5V (Click)</a>   &   /Libragar/Libragar-Script-1.5V-(developed.).js Or .txt AND Edit js or txt -> Code Select All Copy -> Tampermonkey (+) New Script  ->  Select All Delete and Paste.
+2. <center><a href=https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-1.5V-(developed.).js/ target=_blank><font color=Blue>Libragar Script 1.5V (Click)</a>   &   /Libragar/Libragar-Script-1.5V-(developed.).js Or .txt AND Edit js or txt -> Code Select All Copy -> Tampermonkey (+) New Script  ->  Select All Delete and Paste.
 
 
 ### 5. </b> Commands you can do via pm2 ssh.
