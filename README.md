@@ -67,7 +67,7 @@ output Copy + Paste + Enter ->
 
 `pm2 log 0 --lines n`
 
-5. User Scripts Install -> Libra-Agario/Libragar/blob/main/Libragar-Script-(developed.).txt   OR   main/Libragar-Script-(developed.).js
+5. User Scripts Install -> > https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-(developed.).txt   OR   /main/Libragar-Script-(developed.).js
 
 6. Commands you can do via pm2 ssh.
 
