@@ -1,18 +1,7 @@
+[![shield to Agar.io Private Servers guild](https://discordapp.com/api/guilds/407210435721560065/embed.png?style=shield)](https://discord.gg/XcKgShT)
 
+# www.Libragar.pw
 
-# OgarII
-
-Original repository https://github.com/Luka967/OgarII
-
-Your friendly agar.io private server recreation.
-
-- It supports all current agar.io protocol versions.
-
-- It supports handling multiple worlds, all within one instance. Be wary that you can still use up the one CPU core node.js is running on.
-
-- It has a minimal memory footprint, and strictly uses uWebSockets for networking.
-
-- The code uses JSDoc to specify types. Understanding what the code does is down to your understanding of English.
 
 
 ## Running
