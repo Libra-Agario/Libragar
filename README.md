@@ -1,4 +1,4 @@
-[![shield to Agar.io Private Servers guild](https://discordapp.com/api/guilds/407210435721560065/embed.png?style=shield)](https://discord.com/invite/UuVHSZR)
+[![shield to Agar.io Private Servers guild](https://discordapp.com/api/guilds/407210435721560065/embed.png?style=shield)](https://discord.gg/UuVHSZR)
 
 # :bulb: www.Libragar.pw :bulb:
 <b>:bulb: Hi there. Here I will tell you how I created my own server. :) :bulb:</b>
