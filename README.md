@@ -80,7 +80,7 @@ output Copy + Paste + Enter ->
 
 ### 4. User Scripts + Tampermonkey Install ->
 1. Install <a target=”_blank” href=“https://www.tampermonkey.net/m”>TamperMonkey (Click)</a> (i script chrome works fine too. others not tested.)
-2. https://www.libragar.pw Or  Install Script https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-(developed.).js .js Or .txt    &   /Libragar/Libragar-Script-(developed.).js OR .txt
+2. https://www.libragar.pw_(Click) Or <a target=”_blank” href=“https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-(developed.).js”>Libragar Script 1.5V (Click)</a>   &   /Libragar/Libragar-Script-(developed.).js .js Or .txt
 
 ### 5. </b> Commands you can do via pm2 ssh.
 
