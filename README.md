@@ -51,7 +51,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 `pm2 unstartup` 
 
-// output-> ///[PM2] To unsetup the Startup Script, copy/paste the following command: !
+// output-> // sudo env PATH=$PATH:/home/.........
 
 // output Copy + Paste + Enter -> 
 
@@ -59,16 +59,16 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 `pm2 startup`
 
-`output-> // [PM2] To unsetup the Startup Script, copy/paste the following command: !
+// output-> // sudo env PATH=$PATH:/home/.........
 
-// output Copy + Paste + Enter -> `
-
+// output Copy + Paste + Enter -> 
 
 `pm2 save`
 
 `pm2 log 0 --lines n`
 
 `pm2 send 0 'addminion 1 100'`
+
 
 5. Commands you can do via pm2 ssh.
 
