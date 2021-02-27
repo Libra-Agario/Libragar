@@ -47,7 +47,7 @@ https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt    &   /Libragar/C.
 
 ### 3. ~/workspace/Libragar -> 
 
-`YourContainerName -> Libragar -> cli -> double click (open folder)`
+`YourContainerName -> Libragar -> cli -> click`
 
 `autostart.sh double click (open file)  <-- , then delete the entire line(only 8. line) indicated in it. SAVE and then EXIT.`
 
