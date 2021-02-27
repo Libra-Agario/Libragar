@@ -92,7 +92,8 @@ output Copy + Paste + Enter ->
 
 (at 1 If you could not reach the "wwww.libragar.pw" site, you can try it manually.)
 <center><a href=https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-1.5V-(developed.).js/ target=_blank><font color=Blue>Libragar Script 1.5V (Click)</a>   &   /Libragar/Libragar-Script-1.5V-(developed.).js or .txt ->> Code Select All Copy ->> Tampermonkey (+) New Script  ->>  Select All Delete and Paste.
-  // Manuel //
+  
+// Manuel //
 
 ### 5. </b> Commands you can do via pm2 ssh.
 
