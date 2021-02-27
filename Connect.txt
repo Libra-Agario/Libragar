@@ -1,1 +1,1 @@
-core.disableIntegrityChecks(true); core.connect("ws://localhost:5555");
+core.disableIntegrityChecks(true); core.connect("ws://localhost:3000");
