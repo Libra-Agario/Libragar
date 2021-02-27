@@ -71,7 +71,7 @@ output Copy + Paste + Enter ->
 
 https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-(developed.).txt   OR   /main/Libragar-Script-(developed.).js
 
-6. Commands you can do via pm2 ssh.
+<b> 6. </b> Commands you can do via pm2 ssh.
 
 Sample 1 ->  `pm2 send 0 'players'`
 
