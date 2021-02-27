@@ -78,9 +78,10 @@ output Copy + Paste + Enter ->
 
 `pm2 log 0 --lines n`
 
+
 ### 4. User Scripts + Tampermonkey Install ->
-1. Install <a target=”_blank” href=“https://www.tampermonkey.net/m”>TamperMonkey (Click)</a> (i script chrome works fine too. others not tested.)
-2. https://www.libragar.pw_(Click) Or <a target=”_blank” href=“https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-(developed.).js”>Libragar Script 1.5V (Click)</a>   &   /Libragar/Libragar-Script-(developed.).js .js Or .txt
+1. Install <center><a href=https://www.tampermonkey.net/ target=_blank><font color=Blue>TamperMonkey (Click)</a>
+2. https://www.libragar.pw (Click) Or <center><a href=https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-(developed.).js/ target=_blank><font color=Blue>Libragar Script 1.5V (Click)</a>   &   /Libragar/Libragar-Script-(developed.).js .js Or .txt
 
 ### 5. </b> Commands you can do via pm2 ssh.
 
