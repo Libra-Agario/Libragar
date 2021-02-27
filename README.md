@@ -67,10 +67,9 @@ output Copy + Paste + Enter ->
 
 `pm2 log 0 --lines n`
 
-`pm2 send 0 'addminion 1 100'`
+5. User Scripts Install -> Libra-Agario/Libragar/blob/main/Libragar-Script-(developed.).txt   OR   main/Libragar-Script-(developed.).js
 
-
-5. Commands you can do via pm2 ssh.
+6. Commands you can do via pm2 ssh.
 
 Sample 1 ->  `pm2 send 0 'players'`
 
