@@ -108,7 +108,7 @@ Sample 1 ->  `pm2 send 0 'players'`
 
 Sample 2 ->  `pm2 send 0 'addminion 1 100'`
 
-All Command -> https://github.com/Libra-Agario/Libragar/blob/main/CommandList.txt   &   /Libragar/CommandList.txt
+All Command -> `pm2 send 0 'help` OR  https://github.com/Libra-Agario/Libragar/blob/main/CommandList.txt   &   /Libragar/CommandList.txt
 
 
 
