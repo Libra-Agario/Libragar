@@ -14,7 +14,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 
 ### 1 -> Read "C.A.W" if you want it to be "Always On".
-Libragar/C.A.W.txt - https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt
+https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt    //   /Libragar/C.A.W.txt
 
 ### 2.  ~/workspace -> ssh command enter. ->
 
@@ -75,7 +75,7 @@ output Copy + Paste + Enter ->
 
 ### 4. User Scripts Install ->
 
-https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-(developed.).txt   OR   /main/Libragar-Script-(developed.).js
+https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-(developed.).js OR .txt    //   /Libragar/Libragar-Script-(developed.).js OR .txt
 
 ### 5. </b> Commands you can do via pm2 ssh.
 
@@ -83,7 +83,7 @@ Sample 1 ->  `pm2 send 0 'players'`
 
 Sample 2 ->  `pm2 send 0 'addminion 1 100'`
 
-All Command -> https://github.com/Libra-Agario/Libragar/blob/main/CommandList.txt
+All Command -> https://github.com/Libra-Agario/Libragar/blob/main/CommandList.txt     //    /Libragar/CommandList.txt
 
 
 
