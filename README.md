@@ -94,8 +94,8 @@ All Command -> https://github.com/Libra-Agario/Libragar/blob/main/CommandList.tx
 
 ## Configuring
 
-- After your first run, OgarII will drop two files in `cli/` / working directory: `log-settings.json` and `settings.json`.
+- To change how Libragar runs, modify `cli/settings.json`. // Game mode and in-game settings.
 
-- To change how OgarII runs, modify `cli/settings.json`.
+- After your first run, Libragar will drop two files in `cli/` / working directory: `log-settings.json` and `settings.json`.
 
 - To change what gets logged, modify `cli/log-settings.json`.
