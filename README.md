@@ -1,7 +1,7 @@
 [![shield to Agar.io Private Servers guild](https://discordapp.com/api/guilds/407210435721560065/embed.png?style=shield)](https://discord.gg/XcKgShT)
 
 # :bulb: www.Libragar.pw :Bulb:
-Hi :bulb: Hello there. Here I will tell you how I created my own server.
+Hi :bulb: Hello there. Here I will tell you how I created my own server. :) :bulb:
 
 Original repository -> https://github.com/Adil950/OgarMulti -> for more information -> /OgarMulti/blob/master/README.md 
 
@@ -75,11 +75,13 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 `pm2 send 0 'addminion 1 100'`
 
-5. Commands you can do via ssh.
+5. Commands you can do via pm2 ssh.
 
-            ` ,................................`
-Sample ->   `|   pm2 send 0 'addminion 1 100' |`
-          `  ''''''''''''''''''''''''''''''''''`
+Sample 1 ->  `pm2 send 0 'players'`
+Sample 2 ->  `pm2 send 0 'addminion 1 100'`
+All Command -> https://github.com/Libra-Agario/Libragar/blob/main/CommandList
+
+
 
 
 
