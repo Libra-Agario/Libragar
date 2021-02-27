@@ -41,6 +41,7 @@ https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt    &   /Libragar/C.
 
 `sudo apt-get install nano`
 
+`npm install pm2@latest -g`
 
 ### 3. ~/workspace/Libragar/cli -> 
 
