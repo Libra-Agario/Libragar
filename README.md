@@ -18,7 +18,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 ### 1 -> Read "C.A.W" if you want it to be "Always On".
 https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt    &   /Libragar/C.A.W.txt
 
-### 2.  ~/workspace -> ssh command enter. ->
+### 2.  ~/workspace/Libragar -> ssh command enter. ->
 
 `git clone https://github.com/Libra-Agario/Libragar`
 
@@ -41,12 +41,12 @@ https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt    &   /Libragar/C.
 `sudo apt-get install nano`
 
 
-### 3. ~/workspace/Libragar -> 
+### 3. ~/workspace/Libragar/cli -> 
 
 `cd cli`
 `autostart.sh`  <-- double click, then delete the line indicated in it. SAVE and then EXIT.
 
-### 3.1  ~/workspace/Libragar -> 
+### 3.1  ~/workspace/Libragar/cli -> 
 
 `chmod +x autostart.sh`
 
