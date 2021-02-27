@@ -7,6 +7,7 @@
 // @match        *.agar.io/*
 // @grant        none
 // @run-at       document-end
+// @Install-or-Update-latest-version ->> www.Libragar.pw  OR  https://greasyfork.org/en/scripts/420590-libra-agario-yt-public-test-server
 
 
 // @AdBlocker V.02   : all ads in the game are removed; death video ads, Menu ads, Spectate Ads. left and right ad windows removed. (V0.2)
