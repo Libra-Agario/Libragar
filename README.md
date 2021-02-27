@@ -1,6 +1,6 @@
 [![shield to Agar.io Private Servers guild](https://discordapp.com/api/guilds/407210435721560065/embed.png?style=shield)](https://discord.gg/XcKgShT)
 
-# :bulb: www.Libragar.pw :Bulb:
+# :bulb: www.Libragar.pw :bulb:
 Hi :bulb: Hello there. Here I will tell you how I created my own server. :) :bulb:
 
 Original repository -> https://github.com/Adil950/OgarMulti -> for more information -> /OgarMulti/blob/master/README.md 
