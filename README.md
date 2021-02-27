@@ -44,6 +44,9 @@ https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt    &   /Libragar/C.
 ### 3. ~/workspace/Libragar -> 
 
 `cd cli`
+`autostart.sh`  <-- double click, then delete the line indicated in it.
+
+### 3.1  ~/workspace/Libragar -> 
 
 `chmod +x autostart.sh`
 
