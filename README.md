@@ -16,7 +16,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 
 
-### 1 -> Read "C.A.W" if you want it to be "Always On".
+### 1 -> To make the first step "C.A.W." Perform operations in.
 https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt    &   /Libragar/C.A.W.txt
 
 ### 2.  ~/workspace/Libragar -> ssh command enter. ->
