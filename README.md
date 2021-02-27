@@ -57,7 +57,7 @@ open this and read the details inside.
 
 `pm2 unstartup` 
 
-output -> // sudo env PATH=$PATH:/home/.........
+output -> // `sudo env PATH=$PATH:/home/sample/doc/.........`
 
 output Copy + Paste + Enter -> 
 
@@ -65,7 +65,7 @@ output Copy + Paste + Enter ->
 
 `pm2 startup`
 
-output -> // sudo env PATH=$PATH:/home/.........
+output -> // `sudo env PATH=$PATH:/home/sample/doc/.........`
 
 output Copy + Paste + Enter -> 
 
