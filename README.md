@@ -39,7 +39,7 @@ open this and read the details inside.
 `sudo apt-get install nano`
 
 
-<b> 3.</b> ~/workspace/Libragar -> 
+### 3. ~/workspace/Libragar -> 
 
 `cd cli`
 
@@ -73,11 +73,11 @@ output Copy + Paste + Enter ->
 
 `pm2 log 0 --lines n`
 
-<b> 4. </b> User Scripts Install ->
+### 4. User Scripts Install ->
 
 https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-(developed.).txt   OR   /main/Libragar-Script-(developed.).js
 
-<b> 5. </b> Commands you can do via pm2 ssh.
+### 5. </b> Commands you can do via pm2 ssh.
 
 Sample 1 ->  `pm2 send 0 'players'`
 
