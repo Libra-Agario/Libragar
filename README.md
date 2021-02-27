@@ -43,7 +43,7 @@ https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt    &   /Libragar/C.
 
 `npm install pm2@latest -g`
 
-### 3. ~/workspace/Libragar/cli -> 
+### 3. ~/workspace/Libragar -> 
 
 `cd cli`
 
