@@ -77,9 +77,9 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 5. Commands you can do via ssh.
 
-                   ,.............................................................
-Sample ->   |   pm2 send 0 'addminion 1 100'  |
-                 ''''''''''''''''''''''''''''''''''''''''''
+             ,................................
+Sample ->   |   pm2 send 0 'addminion 1 100' |
+            ''''''''''''''''''''''''''''''''''
 
 
 
