@@ -15,15 +15,15 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
     - If you're on Windows, `npm install -g windows-build-tools`.
     - If you're on GNU/Linux, use your package manager to install a supported C++ compiler such as GCC.
 
-3.  ssh command. ->
+3.  ~/workspace -> ssh command enter. ->
 
-workspace/ `git clone https://github.com/Libra-Agario/Libragar`
+`git clone https://github.com/Libra-Agario/Libragar`
 
-workspace/`sudo apt install nodejs` And `Y`
+`sudo apt install nodejs` And `Y`
 
-workspace/`node -v`
+`node -v`
 
-workspace/`cd Libragar`
+`cd Libragar`
 
 `npm install in`
 
@@ -37,7 +37,61 @@ workspace/`cd Libragar`
 
 `sudo apt-get install nano`
 
-`npm install pm2@latest -g`
+
+4. ~/workspace/Libragar -> 
+
+`cd cli`
+
+`chmod +x autostart.sh`
+
+`pm2 list`
+
+`pm2 start autostart.sh`
+
+`pm2 list`
+
+`pm2 save`
+
+
+
+`pm2 unstartup` 
+
+// output-> ///[PM2] To unsetup the Startup Script, copy/paste the following command: !
+
+// output Copy + Paste + Enter -> 
+
+
+
+`pm2 startup`
+`output-> // [PM2] To unsetup the Startup Script, copy/paste the following command: !
+// output Copy + Paste + Enter -> `
+
+
+`pm2 save`
+
+`pm2 log 0 --lines n`
+
+`pm2 send 0 'addminion 1 100'`
+
+5. Commands you can do via ssh.
+
+                   ,.............................................................
+Sample ->   |   pm2 send 0 'addminion 1 100'  |
+                 ''''''''''''''''''''''''''''''''''''''''''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Configuring
