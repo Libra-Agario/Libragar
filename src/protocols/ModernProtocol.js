@@ -76,7 +76,8 @@ class ModernProtocol extends Protocol {
                 }
                 if (globalFlags & 2) this.connection.requestingSpectate = true;
                 if (globalFlags & 4) this.connection.isPressingQ = true;
-                if (globalFlags & 8) this.connection.isPressingQ = this.connection.hasProcessedQ = false;
+			 /* if (globalFlags & 8) this.connection.isPressingQ = this.connection.hasProcessedQ = false; */
+				if (globalFlags & 8) this.connection.userFrozen = !this.connection.userFrozen; // Libra edit 1
                 if (globalFlags & 16) this.connection.ejectAttempts++;
                 if (globalFlags & 32)
                     for (i = 0, l = this.connection.minions.length; i < l; i++)
