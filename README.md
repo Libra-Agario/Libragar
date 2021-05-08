@@ -175,12 +175,13 @@ OR https://greasyfork.org/en/scripts/420590-www-libragar-pw-libra-agario-yt-publ
 
 ### 8 - </b> Commands you can do via pm2 ssh.
 
-for the feedback -> `pm2 log 0 --lines n` (CTRL+C = Log Exit)
+for the feedback -> `pm2 log --lines n` (CTRL+C = Log Exit)
 
 Sample 1 ->  `pm2 send 0 'help'`  &   /Libragar/CommandList.txt
 
 Sample 2 ->  `pm2 send 0 'addminion 1 100'` 
 
+Other pm2 commands -> `pm2 --help`
 
 
 
