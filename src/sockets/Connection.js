@@ -27,6 +27,7 @@ class Connection extends Router {
         /** @type {Minion[]} */
         this.minions = [];
         this.minionsFrozen = false;
+		this.userFrozen = false; // Libra edit 1
         this.controllingMinions = false;
 
         webSocket.on("close", this.onSocketClose.bind(this));
@@ -179,7 +180,7 @@ class Connection extends Router {
 
 module.exports = Connection;
 
-const WebSocket = require("uws");
+const WebSocket = require("ws"); // Libra edit 3
 const Listener = require("./Listener");
 const Minion = require("../bots/Minion");
 const Protocol = require("../protocols/Protocol");
