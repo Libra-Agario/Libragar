@@ -10,7 +10,7 @@ function getLeaderboardData(player, requesting, index) {
     return {
         name: player.leaderboardName,
         highlighted: requesting.id === player.id,
-        cellId: player.ownedCells[0]?player.ownedCells[0].id:undefined,
+        cellId: player.ownedCells[0]?player.ownedCells[0].id:undefined, // Libra edit 2
         position: 1 + index
     };
 }
