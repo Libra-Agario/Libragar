@@ -1,1 +1,5 @@
+# SSL OFF #
 core.disableIntegrityChecks(true); core.connect("ws://localhost:3000");
+
+# SSL ON #
+core.disableIntegrityChecks(true); core.connect("wss://localhost:3000");
