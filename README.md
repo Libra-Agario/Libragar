@@ -93,7 +93,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 
 
-### 4 - git clone and installer.
+### 4 - Git clone and Installer.
 
 `mkdir ffa`
 
@@ -175,7 +175,7 @@ OR https://greasyfork.org/en/scripts/420590-www-libragar-pw-libra-agario-yt-publ
 
 ### 8 - </b> Commands you can do via pm2 ssh.
 
-For The Feedback -> `pm2 log --lines n` (CTRL+C = Log Exit)
+For the feedback -> `pm2 log --lines n` (CTRL+C = Log Exit)
 
 Sample 1 ->  `pm2 send 0 'help'`  &   /Libragar/CommandList.txt
 
