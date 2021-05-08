@@ -36,7 +36,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 `git --version`
 
 
-### 3 - Nginx install 
+### 2 - Nginx install 
 
 `sudo apt-get update`
 
@@ -63,7 +63,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 
 
-### 4 - <b> Nginx ffa Configirasyon</b>
+### 3 - <b> Nginx ffa Configirasyon</b>
 
 `nano /etc/nginx/sites-available/ffa.conf` 
 
@@ -93,7 +93,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 
 
-### 5 - git clone and installer.
+### 4 - git clone and installer.
 
 `mkdir ffa`
 
@@ -127,7 +127,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 
 
-### 6 - SSL Certifica
+### 5 - SSL Certifica
 
 `apt install certbot python3-certbot-nginx`  # OR # `sudo apt install certbot python3-certbot-nginx`
 
@@ -142,7 +142,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 
 
-### 7 - pm2 server start -> 
+### 6 - pm2 server start -> 
 
 `cd cli`
 
@@ -163,7 +163,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 `pm2 save`
 
 
-### 8 - Libragar Script + Tampermonkey Install -> 
+### 7 - Libragar Script + Tampermonkey Install -> 
 1. https://www.libragar.pw OR /Libragar/User-Scripts (https://github.com/Libra-Agario/Libragar/tree/main/User-Scripts
 OR https://greasyfork.org/en/scripts/420590-www-libragar-pw-libra-agario-yt-public-betatest-server 
 
@@ -173,7 +173,7 @@ OR https://greasyfork.org/en/scripts/420590-www-libragar-pw-libra-agario-yt-publ
  - <b> Change -> </b>  core.disableIntegrityChecks(true); core.connect("wss://`yoursubdomain.yourdomain.com`");
 
 
-### 9 - </b> Commands you can do via pm2 ssh.
+### 8 - </b> Commands you can do via pm2 ssh.
 
 for the feedback -> `pm2 log 0 --lines n` (CTRL+C = Log Exit)
 
@@ -185,7 +185,7 @@ Sample 2 ->  `pm2 send 0 'addminion 1 100'`
 
 
 
-### 10 To create more servers -> (not mandatory)
+### 9 To create more servers -> (not mandatory)
 <b> 4. 5. 6. and 7. repeat these steps </b>
 only. <b>ffa</b> name changed instead, example <b>experimental</b> write. and port <b>3000</b> instead, example <b>4000</b> write. 
 <b>just replace with the same ones</b>
