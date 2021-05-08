@@ -127,7 +127,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 
 
-### 6 - SSL Certifica (https://certbot.eff.org/lets-encrypt/ubuntufocal-nginx
+### 6 - SSL Certifica
 
 `apt install certbot python3-certbot-nginx`  # OR # `sudo apt install certbot python3-certbot-nginx`
 
