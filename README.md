@@ -12,26 +12,102 @@ https://github.com/Adil950/OgarMulti -> for more information-> /OgarMulti/blob/m
 Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://youtube.com/libraa)
 
 
+### 1 - Vps General installation / Ubuntu 16.04 , 18.04 or 20.04. 
+
+
+`sudo apt-get update`
+
+`sudo apt-get install nodejs`
+
+
+`sudo apt-get install nano`
+
+
+`sudo apt-get install npm`
+
+`apt install npm`
+
+
+
+`apt-get update`
+
+`apt-get install git`
+
+`git --version`
+
+
+### 3 - Nginx install 
+
+`sudo apt-get update`
+
+
+`sudo apt-get upgrade`
+
+
+`sudo apt-get install nginx`
+
+
+`sudo systemctl start nginx`
+
+`sudo systemctl enable nginx`
+
+
+`systemctl status nginx `
+
+`nginx -t `
+
+`rm /etc/nginx/sites-enabled/default`
 
 
 
 
-### 1 -> To make the first step "C.A.W." Perform operations in.
-https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt    &   /Libragar/C.A.W.txt
 
-### 2.  ~/workspace -> ssh command enter. ->
+
+### 4 <b> Nginx ffa Configirasyon</b>
+
+`nano /etc/nginx/sites-available/ffa.conf` 
+
+	server {
+		listen 80;
+		listen [::]:80;
+
+		server_name yoursubdomain.yourdomain.com;
+
+		location / {
+		proxy_pass http://you.server.ip:3000;
+		proxy_http_version 1.1;
+		proxy_set_header Upgrade $http_upgrade;
+		proxy_set_header Connection "upgrade";
+		}
+	}
+
+
+<b>ctrl + o</b> / <b>enter</b> /<b> ctrl + x</b>
+
+ 
+`ln -s /etc/nginx/sites-available/ffa.conf /etc/nginx/sites-enabled/`
+
+`nginx -t`
+
+`systemctl reload nginx` OR `systemctl restart nginx` 
+
+
+
+### 5 - git clone and installer.
+
+`mkdir ffa`
+
+`cd ffa`
 
 `git clone https://github.com/Libra-Agario/Libragar`
 
-`sudo apt install nodejs`
+`cd Libragar`
 
-`Y`
+`sudo apt install nodejs`
 
 `node -v`
 
-`cd Libragar`
-
-`npm install in`
+`npm install ws`
 
 `sudo apt update`
 
@@ -45,7 +121,28 @@ https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt    &   /Libragar/C.
 
 `npm install pm2@latest -g`
 
-### 3. ~/workspace/Libragar -> 
+`cd cli`
+
+`nano settings.json` // port 3000 // save, <b>ctrl + o</b> / <b>enter</b> /<b> ctrl + x</b>
+
+
+
+### 6 - SSL Certifica (https://certbot.eff.org/lets-encrypt/ubuntufocal-nginx
+
+`apt install certbot python3-certbot-nginx`  # OR # `sudo apt install certbot python3-certbot-nginx`
+
+
+`sudo certbot --nginx -d yoursubdomain.yourdomain.com --register-unsafely-without-email`
+
+`A`
+
+`2`
+
+
+
+
+
+### 7 - pm2 server start -> 
 
 `cd cli`
 
@@ -61,58 +158,39 @@ https://github.com/Libra-Agario/Libragar/blob/main/C.A.W.txt    &   /Libragar/C.
 
 `pm2 unstartup` 
 
-sample output! -> // `sudo env PATH=$PATH:/................`
-
-output Copy + Paste + Enter -> 
-
-
-
 `pm2 startup`
-
-sample output! -> // `sudo env PATH=$PATH:/................`
-
-output Copy + Paste + Enter -> 
 
 `pm2 save`
 
 
-### 4. User Script + Tampermonkey Install ->
+### 8 - Libragar Script + Tampermonkey Install -> 
+1. https://www.libragar.pw OR /Libragar/User-Scripts (https://github.com/Libra-Agario/Libragar/tree/main/User-Scripts
+OR https://greasyfork.org/en/scripts/420590-www-libragar-pw-libra-agario-yt-public-betatest-server 
 
-1. Auto Script Install https://www.libragar.pw (Click)
-2. Codeanywhere -> Minions (`Container`) -> Right click -> `info` -> Left click.
-3. `To access your web application......` -> `http(s)://your-sitename.codeanyapp.com`  -> `your-sitename.codeanyapp.com` Copy. 
-4. Libragar.pw Script Edit -> Search -> replace the same ones with your own link. -> `window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://minions-libra.codeanyapp.com");`
+### 8.1 Libragar Script in edit ->
+1. Libragar Script -> in Search -> `core.disableIntegrityChecks(true); core.connect` replace the same ones with your own link.
+ - <b> Sample -> </b> core.disableIntegrityChecks(true); core.connect("wss://`ffa.libragar.pw`");
+ - <b> Change -> </b>  core.disableIntegrityChecks(true); core.connect("wss://`yoursubdomain.yourdomain.com`");
 
-Sample -> ....core.connect("wss://`minions-libra.codeanyapp.com`"); // Change -> // ....core.connect("wss://`your-sitename.codeanyapp.com`"); // Save. Okey.
 
-// Manuel Script //
-
-(at 1 If you could not reach the "wwww.libragar.pw" site, you can try it manually.)
-<center><a href=https://github.com/Libra-Agario/Libragar/blob/main/Libragar-Script-1.5V-(developed.).js/ target=_blank><font color=Blue>Libragar Script 1.5V (Click)</a>   &   /Libragar/Libragar-Script-1.5V-(developed.).js or .txt ->> Code Select All Copy ->> Tampermonkey (+) New Script  ->>  Select All Delete and Paste.
-  
-// Manuel Script //
-
-### 5. </b> Commands you can do via pm2 ssh.
+### 9 - </b> Commands you can do via pm2 ssh.
 
 for the feedback -> `pm2 log 0 --lines n` (CTRL+C = Log Exit)
 
-Sample 1 ->  `pm2 send 0 'players'`
+Sample 1 ->  `pm2 send 0 'help'`  &   /Libragar/CommandList.txt
 
-Sample 2 ->  `pm2 send 0 'addminion 1 100'`
-
-All Command -> `pm2 send 0 'help'` OR  https://github.com/Libra-Agario/Libragar/blob/main/CommandList.txt   &   /Libragar/CommandList.txt
+Sample 2 ->  `pm2 send 0 'addminion 1 100'` 
 
 
 
 
 
-
-
+### 10 To create more servers -> (not mandatory)
+<b> 4. 5. 6. and 7. repeat these steps </b>
+only. <b>ffa</b> name changed instead, example <b>experimental</b> write. and port <b>3000</b> instead, example <b>4000</b> write. 
+<b>just replace with the same ones</b>
 
 ## Configuring
 
 - To change how Libragar runs, modify `cli/settings.json`. // Game mode and in-game settings.
 
-- After your first run, Libragar will drop two files in `cli/` / working directory: `log-settings.json` and `settings.json`.
-
-- To change what gets logged, modify `cli/log-settings.json`.
