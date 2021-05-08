@@ -474,7 +474,7 @@ class World {
      */
     movePlayerCell(cell) {
         const router = cell.owner.router;
-        if (router.disconnected) return;
+        if (router.disconnected || router.userFrozen) return; // Libra edit 1
         let dx = router.mouseX - cell.x;
         let dy = router.mouseY - cell.y;
         const d = Math.sqrt(dx * dx + dy * dy);
