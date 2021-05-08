@@ -63,7 +63,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 
 
-### 4 <b> Nginx ffa Configirasyon</b>
+### 4 - <b> Nginx ffa Configirasyon</b>
 
 `nano /etc/nginx/sites-available/ffa.conf` 
 
