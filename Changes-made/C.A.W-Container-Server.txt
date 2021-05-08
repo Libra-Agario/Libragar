@@ -1,0 +1,29 @@
+# C.A.W. => CodeAnyWhere #
+
+If you want the server to stay active all the time. package contents must include -> (Always-On Container) 
+
+1. My campaign, sign up for a Codeanywhere premium account and we both get $15 in credit:
+https://codeanywhere.com/referralsignup/?r=6d732535773b3d306464
+You can get $ 15 off when you spend using the link above.
+When buying a package, write to me on discord and I will give you a 25% discount code. 
+
+....................................................................................................
+||  Packets------------------->> ||    Free ||  Starter  ||    Freelancer    ||    Professional   || 
+||''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+||  Always-On Container? ------> ||   NO    ||     NO    ||      1 PIECE     ||       3 PIECE     || 
+||  Time ----------------------> ||   2 h.  ||   Month   ||       Month      ||        Month      ||
+||  Free & Month MONEY ? ------> ||    0    ||  3 Dolar  ||     10 dolar     ||       25 dolar    ||
+||  Year = Month --------------> ||    X    ||   2.5 D.  ||      8 dolar     ||       20 dolar    ||
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+I am choosing package 3 for now. (Freelancer, years=month-> 8 dolar - 1 price Always-On Container)
+
+// we can start now :) // remember to do e-mail verification.
+1. File ->
+2. New Connection -> 
+3. Container -> 
+4. "Minions" <- write what you want) -> 
+5. Search Stack -> (Node.js - Ubuntu 16.04) -> Create. // 1-3min wait. if it doesn't load, refresh the page. next->
+6. "Minion" -> (right click) --> "Enable Alyaws On" --> (left click)
+7. "Minion" -> (right click) --> " SSH Terminal " -> (left click).
+
+//now we can write the codes :) -> Go to section -> " 2. ~/workspace -> ssh command enter. -> " 

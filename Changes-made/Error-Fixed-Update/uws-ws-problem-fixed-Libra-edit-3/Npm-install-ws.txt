@@ -1,0 +1,3 @@
+ssh console paste -> 
+
+npm install ws
