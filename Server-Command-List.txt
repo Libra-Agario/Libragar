@@ -1,0 +1,47 @@
+                ..................................................
+1. Sample ->   |   pm2 send 0 'help'   |
+               '''''''''''''''''''''''''''''''''
+ 	...................................
+2. Sample ->   |   pm2 log 0  |       Other pm2 command you google search.
+               '''''''''''''''''''''''
+               ........................................................................
+3. Sample ->   |   pm2 send 0 'addminion 1 100'  |
+               '''''''''''''''''''''''''''''''''''''''''''''''
+
+
+
+			    			 💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡
+		  	    			 💡        COMMAND LIST      💡	
+			    			 💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡
+
+💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡
+......................................................................................................................💡 💡
+|  NAME      ARGUMENTS                         | DESCRIPTION                              	                    💡   💡
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''💡	 💡              			
+addbot    <world id> [count=1]  	 | assign player bots to a world                               	          💡     💡  
+addminion <id> [count]  	 | assign minions to a player				   			  💡     💡 
+crash 			 | manually force an error throw				    			  💡     💡
+eval                                        | evaluate javascript code in a function bound to server handle	  💡	 💡
+exit                                        | stop the handle and close the command stream		   	  💡	 💡
+explode   <id>                              | instantly explode a player's first cell			          💡	 💡
+forbid    <IP address / player id>          | forbid (ban) specified IP or a connected player   	          💡	 💡
+help                                        | display all registered commands and their relevant information	  💡	 💡
+kill      <id>                              | instantly kill a player 					          💡	 💡
+killall   <world id>                        | instantly kill all players in a world                               💡	 💡	
+mass      <id> <mass>                       | set cell mass to all of a player's cells 	 		  	  💡	 💡
+merge     <id>                              | instantly merge a player 				   		  💡	 💡
+pardon    <IP address>                      | pardon (unban) specified IP			   		  💡	 💡
+pause                                       | toggle handle pause						  💡	 💡
+players   [world id or "any"] [router type] | display information about players    		    		  💡     💡
+reload                                      | reload the settings from local settings.json     	 		  💡	 💡
+restart                                     | stop then immediately start the handle 			    	  💡     💡
+rmbot     <world id> [count=1]              | remove player bots from a world			    	          💡     💡
+rmminion  <id> [count]                      | remove assigned minions from a player		   		  💡	 💡	
+routers   [router type]                     | display information about routers and their players	   	  💡	 💡
+save                                        | save the current settings to settings.json		   	  💡	 💡
+setting   <name> [value]                    | change/print the value of a setting			   	  💡	 💡
+start                                       | start the handle					    		  💡	 💡
+stats                                       | display critical information about the server		  	  💡   	 💡
+stop                                        | stop the handle					  		  💡	 💡
+test                                        | test command   					  		  💡	 💡
+💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡
