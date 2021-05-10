@@ -1,5 +1,7 @@
 # SSL OFF #
-core.disableIntegrityChecks(true); core.connect("ws://localhost:3000");
+core.disableIntegrityChecks(true); core.connect("ws://localhost:3000"); 
+// localhost or your server ip or domain name
 
 # SSL ON #
-core.disableIntegrityChecks(true); core.connect("wss://localhost:3000");
+core.disableIntegrityChecks(true); core.connect("wss://yourserver");  
+// wss only domain name 
