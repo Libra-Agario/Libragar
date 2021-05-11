@@ -12,7 +12,16 @@ https://github.com/Adil950/OgarMulti -> for more information-> /OgarMulti/blob/m
 Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://youtube.com/libraa)
 
 
-### 1 - Vps General installation / Ubuntu 16.04 , 18.04 or 20.04. 
+### 0 - To be done first!
+- buy a domain. //@godaddy
+- buy a Vps. / Ubuntu 16.04 , 18.04 or 20.04. //@veritescil, @pulseheberg, @codeanywhere, @contabo(not test)
+- buy a web hosting. (free cpanel) //@odeaweb
+- replace your website's NS names with the NS names of your webhosting
+- cpanel zone editor, add tip "A" your vps ip(noport). yoursubdomain.yourdomain.com 
+
+
+
+ ### 1 - Vps General installation
 
 
 `sudo apt-get update`
