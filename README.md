@@ -17,7 +17,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 - buy a Vps. / Ubuntu 16.04 , 18.04 or 20.04. //@veritescil, @pulseheberg, @codeanywhere, @contabo(not test)
 - buy a web hosting. (free cpanel) //@odeaweb
 - replace your website's NS names with the NS names of your webhosting
-- cpanel zone editor, add tip "A" your vps ip(noport). yoursubdomain.yourdomain.com 
+- cpanel zone editor, add tip "A" your "vps ip" (noport).  "yoursubdomain.yourdomain.com" 
 
 
 
