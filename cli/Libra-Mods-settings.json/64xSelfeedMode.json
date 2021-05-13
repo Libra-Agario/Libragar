@@ -2,7 +2,7 @@
     "listenerForbiddenIPs": [],
     "listenerAcceptedOrigins": [],
     "listenerMaxConnections": 1000,
-    "listenerMaxClientDormancy": 100000,
+    "listenerMaxClientDormancy": 150000,
     "listenerMaxConnectionsPerIP": -1,
     "listeningPort": 5000,
     "serverFrequency": 25,
