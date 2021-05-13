@@ -72,9 +72,11 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 
 
-### 3 - <b> Nginx ffa Configirasyon</b>
+### 3 - <b> Nginx ffa Configirasyon</b> 
 
 `nano /etc/nginx/sites-available/ffa.conf` 
+
+// after replacing it with your own information, put the following code into it.
 
 	server {
 		listen 80;
@@ -91,7 +93,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 	}
 
 
-<b>ctrl + o</b> / <b>enter</b> /<b> ctrl + x</b>
+save -> <b>ctrl + o</b> / <b>enter</b> /<b> ctrl + x</b>
 
  
 `ln -s /etc/nginx/sites-available/ffa.conf /etc/nginx/sites-enabled/`
@@ -130,11 +132,6 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 `npm install pm2@latest -g`
 
-`cd cli`
-
-`nano settings.json` // port 3000 // save, <b>ctrl + o</b> / <b>enter</b> /<b> ctrl + x</b>
-
-
 
 ### 5 - SSL Certifica
 
@@ -147,7 +144,7 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 `2`
 
-
+`sudo certbot renew --dry-run`
 
 
 
@@ -195,12 +192,12 @@ Other pm2 commands -> `pm2 --help`
 
 
 
-### 9 To create more servers -> (not mandatory)
-<b> 4. 5. 6. and 7. repeat these steps </b>
-only. <b>ffa</b> name changed instead, example <b>experimental</b> write. and port <b>3000</b> instead, example <b>4000</b> write. 
-<b>just replace with the same ones</b>
+### 9 To create more servers - (not mandatory)
+follow the procedures here. -> [More Servers](https://github.com/Libra-Agario/Libragar/blob/main/Changes-made/moreservers.md)
+
 
 ## Configuring
 
 - To change how Libragar runs, modify `cli/settings.json`. // Game mode and in-game settings.
 
+ Ask all your questions over on the [Agar.io Private Servers](https://discord.gg/66X2ESb) Discord guild.
