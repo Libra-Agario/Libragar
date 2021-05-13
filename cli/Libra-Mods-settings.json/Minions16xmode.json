@@ -4,7 +4,7 @@
     "listenerMaxConnections": 100000,
     "listenerMaxClientDormancy": 100000,
     "listenerMaxConnectionsPerIP": -1,
-    "listeningPort": 3000,
+    "listeningPort": 3001,
     "serverFrequency": 25,
     "serverName": "An unnamed server",
     "serverGamemode": "FFA",
