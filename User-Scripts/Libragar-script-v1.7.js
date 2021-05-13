@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Github www.Libragar.pw 💡🤵 Libra - Agario YT Public BetaTest Server V1.7 💡
+// @name         www.Libragar.pw V1.7 💡🤵 Libra - Agario YT Public BetaTest Server - Free 100 Bots/Minions 💡
 // @namespace    www.youtube.com/Libraa
 // @homepage     https://www.Libragar.pw
 // @version      1.7 💡
@@ -486,11 +486,11 @@ instructions.innerHTML +=
 
     '<button id="minions"><b><span style="font-size: 17.0px;">💡</b></button><a>&nbsp; </a>' +
     '<button id="bigffa"><b><span style="font-size: 17.0px;">🤵</b></button><a>&nbsp; </a>' +
-    
-//    '<button id="otherserver3"><b><span style="font-size: 17.0px;">☢</b></button><a>&nbsp; </a>' +
-//    '<button id="otherserver4"><b><span style="font-size: 17.0px;">😎</b></button><a>&nbsp; </a>' +
-//    '<button id="otherserver5"><b><span style="font-size: 17.0px;">🔴</b></button><a>&nbsp; </a>' +
-//    '<button id="otherserver6"><b><span style="font-size: 17.0px;">🤫</b></button><a></a>' +
+
+    '<button id="64xselfeed"><b><span style="font-size: 17.0px;">🔵</b></button><a>&nbsp; </a>' +
+    '<button id="64xmonotone"><b><span style="font-size: 17.0px;">🟡</b></button><a>&nbsp; </a>' +
+//    '<button id="otherserver5"><b><span style="font-size: 17.0px;">🙋‍♂️</b></button><a>&nbsp; </a>' +
+//    '<button id="localhost"><b><span style="font-size: 17.0px;">💿</b></button><a></a>' +
 
 
 
@@ -500,7 +500,7 @@ instructions.innerHTML +=
     '<center><a href=https://www.Libragar.pw target=_blank><font color=Blue>Update to the latest version(Click)</font></center></a>' +
     '<center></font></center></a><font> The page if sign-in does not appear <a href=https://Agar.io><font color=#72cb31> Refresh </font></center></a>' +
          '<b><button id="controlkeysbutton"><span style="font-size: 12.5px;"><b>CONTROL ⌨ &nbsp;KEYS</b></b></button>' +
-         '<div style="text-align:center"><span style="font-size: 14.4px;"><font color=Blue><p id="controlkeysparagraf" style="display: none;"> <font color=DarkBlue> <b>&nbsp;&nbsp;||  USER Control   ||  __💡__  || BOT Control  ||&nbsp;&nbsp;  <br>&nbsp;&nbsp;&nbsp;&nbsp;  32x Split " A " &nbsp;&nbsp; &nbsp;______&nbsp;&nbsp;&nbsp;&nbsp;  32x Split " Shift "   </br>  4x Split " R "&nbsp;&nbsp;&nbsp;  &nbsp;______ &nbsp;&nbsp;&nbsp;&nbsp;  4x Split " V "   </br>  8x Split " Y " &nbsp;&nbsp;&nbsp;&nbsp; ______ &nbsp;&nbsp;&nbsp; 8x Split " B "   </br>  16x Split " U " &nbsp;&nbsp;&nbsp; ______ &nbsp;&nbsp;  16x Split " N " &nbsp; </br> Freeze " S "&nbsp;&nbsp;&nbsp;&nbsp; ______ &nbsp;&nbsp;&nbsp; Freeze " T " &nbsp; </br> Selfie Split " Q " &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</br></div></b> </font></center></a>' ;
+         '<div style="text-align:center"><span style="font-size: 14.4px;"><font color=Blue><p id="controlkeysparagraf" style="display: none;"> <font color=DarkBlue> <b>&nbsp;&nbsp;||  USER Control   ||  __💡__  || BOT Control  ||&nbsp;&nbsp;  <br>&nbsp;&nbsp;&nbsp;&nbsp;  32x Split " A " &nbsp;&nbsp; &nbsp;______&nbsp;&nbsp;&nbsp;&nbsp;  32x Split " Shift "   </br>  4x Split " R "&nbsp;&nbsp;&nbsp;  &nbsp;______ &nbsp;&nbsp;&nbsp;&nbsp;  4x Split " V "   </br>  8x Split " Y " &nbsp;&nbsp;&nbsp; ______ &nbsp;&nbsp;&nbsp; 8x Split " B "   </br>  16x Split " U " &nbsp;&nbsp;&nbsp; ______ &nbsp;&nbsp;  16x Split " N " &nbsp; </br> Freeze " S "&nbsp;&nbsp;&nbsp;&nbsp; ______ &nbsp;&nbsp;&nbsp; Freeze " T " &nbsp; </br> Selfie Split " Q " &nbsp&nbsp;&nbsp; ______ &nbsp; &nbsp;<span style="font-size: 17.0px;"><font color=Yellow><b>Libragar V1.7 :)</b>&nbsp; &nbsp;&nbsp; &nbsp; </br></div></b> </font></center></a>' ;
 
 
 
@@ -561,60 +561,60 @@ instructions.innerHTML +=
 });
 
 
-//
-//
-//           document.getElementById('otherserver3').addEventListener('click', function(event) {
-//               window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://minions-libra.codeanyapp.com"); // "Button3" connect wss
-//
-//                         (function() {
-//
-//                         core.setMinimap(1)})()
-//                         core.playersMinimap(1)
-//                         core.setSkins (0)
-//
-//});
 
 
-//
-//
-//           document.getElementById('otherserver4').addEventListener('click', function(event) {
-//               window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://minions-libra.codeanyapp.com"); // "Button3" connect wss
-//
-//                         (function() {
-//
-//                         core.setMinimap(1)})()
-//                         core.playersMinimap(1)
-//                         core.setSkins (0)
-//
-//});
+           document.getElementById('64xselfeed').addEventListener('click', function(event) {
+               window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://64xselfeed.libragar.pw"); // "Button3" connect wss
+
+                         (function() {
+
+                         core.setMinimap(1)})()
+                         core.playersMinimap(1)
+                         core.setSkins (0)
+
+});
 
 
-//
-//
-//           document.getElementById('otherserver5').addEventListener('click', function(event) {
-//               window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://minions-libra.codeanyapp.com"); // "Button3" connect wss
-//
-//                         (function() {
-//
-//                         core.setMinimap(1)})()
-//                         core.playersMinimap(1)
-//                         core.setSkins (0)
-//
-//});
 
 
-//
-//
-//           document.getElementById('otherserver6').addEventListener('click', function(event) {
-//               window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://minions-libra.codeanyapp.com"); // "Button3" connect wss
-//
-//                         (function() {
-//
-//                         core.setMinimap(1)})()
-//                         core.playersMinimap(1)
-//                         core.setSkins (0)
-//
-//});
+           document.getElementById('64xmonotone').addEventListener('click', function(event) {
+               window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://64xmonotone.libragar.pw"); // "Button3" connect wss
+
+                         (function() {
+
+                         core.setMinimap(1)})()
+                         core.playersMinimap(1)
+                         core.setSkins (0)
+
+});
+
+
+
+
+           document.getElementById('otherserver5').addEventListener('click', function(event) {
+               window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://minions-libra.codeanyapp.com"); // "Button3" connect wss
+
+                         (function() {
+
+                         core.setMinimap(1)})()
+                         core.playersMinimap(1)
+                         core.setSkins (0)
+
+});
+
+
+
+
+           document.getElementById('localhost').addEventListener('click', function(event) {
+               window.xhttp = core.disableIntegrityChecks(true); core.connect("ws://localhost:3000"); // "Button3" connect wss
+
+                         (function() {
+
+                         core.setMinimap(1)})()
+                         core.playersMinimap(1)
+                         core.setSkins (0)
+
+});
 
 
 
