@@ -193,7 +193,7 @@ Other pm2 commands -> `pm2 --help`
 
 
 ### 9 To create more servers - (not mandatory)
-follow the procedures here. -> [More Servers](https://github.com/Libra-Agario/Libragar/blob/main/Changes-made/moreservers.md)
+follow the procedures here. -> [Add More Servers](https://github.com/Libra-Agario/Libragar/blob/main/Changes-made/moreservers.md)
 
 
 ## Configuring
