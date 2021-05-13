@@ -62,7 +62,7 @@
     "mothercellMaxSize": 65535,
     "playerRoamSpeed": 32,
     "playerRoamViewScale": 0.4,
-    "playerViewScaleMult": 1.1,
+    "playerViewScaleMult": 1.2,
     "playerMinViewScale": 0.01,
     "playerMaxNameLength": 16,
     "playerAllowSkinInName": true,
