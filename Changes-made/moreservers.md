@@ -1,4 +1,7 @@
-## 0. cpanel zone editor, add tip "A" , your "vps ip" , "yoursubdomain2.yourdomain.com"
+## 0. cpanel zone editor,
+
+add tip "A" , your "vps ip" , "yoursubdomain2.yourdomain.com"
+ 
 ## 1. New nginx configuration for the new server // difference, subdomain name and port changed
 
 `nano /etc/nginx/sites-available/experimental.conf` 
