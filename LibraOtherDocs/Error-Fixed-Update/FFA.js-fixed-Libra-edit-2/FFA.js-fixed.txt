@@ -1,0 +1,10 @@
+Libragar/src/gamemodes/
+FFA.js:13:38
+
+line 13 
+
+cellId: player.ownedCells[0].id,
+
+change
+
+cellId: player.ownedCells[0]?player.ownedCells[0].id:undefined, // Libra edit 2

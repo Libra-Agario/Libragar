@@ -1,0 +1,8 @@
+Libragar\src\worlds
+world.js
+
+if (router.disconnected) return;
+
+477 line change
+
+if (router.disconnected || router.userFrozen) return; // Libra edit 1
