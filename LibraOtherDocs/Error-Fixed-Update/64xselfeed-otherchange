@@ -1,0 +1,25 @@
+
+// 
+the Minions were assigned. their minions were directed right into the middle of the world. 
+controlling minions is disabled. 
+The Playetbot jump feature has been turned off.
+//
+
+/* 64xselfeed ->> 
+
+/Libragar/src/sockets/ Connection.js :29
+        this.minionsFrozen = true;
+
+/Libragar/cli/ settings.json :38
+        "minionEnableERTPControls": false,
+
+
+/Libragar/src/bots/ Minion.js :46, 47
+        this.mouseX = this.following.minionsFrozen ? this.player.viewArea.y*-1 : this.following.mouseX;
+        this.mouseY = this.following.minionsFrozen*-1 ? this.player.viewArea.x : this.following.mouseY;
+
+
+/Libragar/src/bots/ PlayerBot.js :64
+        let splitkillObstacleNearby = true;
+
+*/  64xselfeed ->> 
