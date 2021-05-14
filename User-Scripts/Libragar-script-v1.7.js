@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         www.Libragar.pw V1.7 💡🤵 Libra - Agario YT Public BetaTest Server - Free 100 Bots/Minions 💡
+// @name         Github www.Libragar.pw 💡🤵 Libra - Agario YT Public BetaTest Server V1.7 💡
 // @namespace    www.youtube.com/Libraa
 // @homepage     https://www.Libragar.pw
 // @version      1.7 💡
@@ -14,7 +14,9 @@
 // @Server-Features  : All Free 41+ Bots, 32x Split, original Agar.io, Minions/Bots Control Easy and play with your custom bots || BetaTest 100 minions FREE :) || - Raga-like game mode - My Server, Does not require captha verification :)
 
 // @Update V1.7 ->>
+//
 // The user is now frozen by the server. so now you can freeze yourself and then check out the minions. ||
+// Minions Frozen KEY "T" change -> new Key " D "
 // For codes I use from different places. I added reference (script in) ||
 // Github document project updated. - https://github.com/Libra-Agario/Libragar
 // @Update V1.7 ->>
@@ -23,7 +25,7 @@
 
 // CONTROL KEY's //
 // USER Control ->>  || " W " Macro Feed Mass || 32x Split   " A "   || 4x Split " R " || 8x Split " Y " || 16x Split " U " || Freeze " S " || Crazy Jump Macro (Selfie) " Q " || Libragar Public Server Join; " L " Key OR " 💡 " Button Function "
-// BOT Control  ->>  || Macro Feed Mass " C " || 32x Split " Shift " || 4x Split " V " || 8x Split " B " || 16x Split " N " || Freeze " T " ||
+// BOT Control  ->>  || Macro Feed Mass " C " || 32x Split " Shift " || 4x Split " V " || 8x Split " B " || 16x Split " N " || Freeze " D " ||
 // NOT: YOU CAN CHANGE IT WITH THE KEY YOU WANT. => To set the key you want, https://keycode.info use the link and press the letter you want -- then go to the section you want to change. and change the key number (there.event.keyCode == xx) (replace with the key number you want)
 
 // @updateURL    http://userscripts.libragar.pw/Libragar.js
@@ -270,7 +272,7 @@ window._WebSocket = window.WebSocket = function(ip) {
 window.key = {
     x: false,
     c: false,
-    t: false,
+    d: false,
     s: false,
 };
 window.addEventListener("load", function() {
@@ -287,7 +289,7 @@ window.addEventListener("load", function() {
             } else if (window.key.c){
                 arguments[0] = new Int8Array(1);
                 arguments[0][0] = 23;
-            } else if (window.key.t){
+            } else if (window.key.d){
                 arguments[0] = new Int8Array(1);
                 arguments[0][0] = 24;
             } else if (window.key.s){
@@ -312,7 +314,7 @@ window.addEventListener("load", function() {
 document.addEventListener('keydown', function(e) {
     if (e.keyCode == 88) window.key.x = true; // ------------------------> MINION BOT'S -> -> -> // Key Number 88 // Split  // Press Key " X " //
     if (e.keyCode == 67) window.key.c = true; // ------------------------> MINION BOT'S -> -> -> // Key Number 67 // Feed   // Press Key " C " //
-    if (e.keyCode == 84) window.key.t = true; // ------------------------> MINION BOT'S -> -> -> // Key Number 84 // Freeze // Press Key " T " //
+    if (e.keyCode == 68) window.key.d = true; // ------------------------> MINION BOT'S -> -> -> // Key Number 68 // Freeze // Press Key " D " //
     if (e.keyCode == 83) window.key.s = true; // ------------------------> USER SERVER FREEZE -> // Key Number 83 // Freeze // Press Key " S " // @2
 
 
@@ -498,21 +500,7 @@ instructions.innerHTML +=
     '<center><a href=http://www.youtube.com/Libraa target=_blank><font color=Blue><b> Libra Youtube </b></font></center></a>'+
     '<center><a href=https://discord.gg/UuVHSZR target=_blank><font color=#72cb31>💡 Discord Group 💡</font></center></a>' +
     '<center><a href=https://www.Libragar.pw target=_blank><font color=Blue>Update to the latest version(Click)</font></center></a>' +
-    '<center></font></center></a><font> The page if sign-in does not appear <a href=https://Agar.io><font color=#72cb31> Refresh </font></center></a>' +
-         '<b><button id="controlkeysbutton"><span style="font-size: 12.5px;"><b>CONTROL ⌨ &nbsp;KEYS</b></b></button>' +
-         '<div style="text-align:center"><span style="font-size: 14.4px;"><font color=Blue><p id="controlkeysparagraf" style="display: none;"> <font color=DarkBlue> <b>&nbsp;&nbsp;||  USER Control   ||  __💡__  || BOT Control  ||&nbsp;&nbsp;  <br>&nbsp;&nbsp;&nbsp;&nbsp;  32x Split " A " &nbsp;&nbsp; &nbsp;______&nbsp;&nbsp;&nbsp;&nbsp;  32x Split " Shift "   </br>  4x Split " R "&nbsp;&nbsp;&nbsp;  &nbsp;______ &nbsp;&nbsp;&nbsp;&nbsp;  4x Split " V "   </br>  8x Split " Y " &nbsp;&nbsp;&nbsp; ______ &nbsp;&nbsp;&nbsp; 8x Split " B "   </br>  16x Split " U " &nbsp;&nbsp;&nbsp; ______ &nbsp;&nbsp;  16x Split " N " &nbsp; </br> Freeze " S "&nbsp;&nbsp;&nbsp;&nbsp; ______ &nbsp;&nbsp;&nbsp; Freeze " T " &nbsp; </br> Selfie Split " Q " &nbsp&nbsp;&nbsp; ______ &nbsp; &nbsp;<span style="font-size: 17.0px;"><font color=Yellow><b>Libragar V1.7 :)</b>&nbsp; &nbsp;&nbsp; &nbsp; </br></div></b> </font></center></a>' ;
-
-
-
-
-    $("#connectlistbutton").click(function(){
-    $("#connectlistparagraf").toggle();
-    });
-
-         $("#controlkeysbutton").click(function(){
-         $("#controlkeysparagraf").toggle();
-
-         });
+    '<center></font></center></a><font> The page if sign-in does not appear <a href=https://web.libragar.pw><font color=#72cb31> Refresh </font></center></a>' +
 
 
 
@@ -578,7 +566,7 @@ instructions.innerHTML +=
 
 
            document.getElementById('64xmonotone').addEventListener('click', function(event) {
-               window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://64xmonotone.libragar.pw"); // "Button3" connect wss
+               window.xhttp = core.disableIntegrityChecks(true); core.connect("wss://96xmonotone.libragar.pw"); // "Button3" connect wss
 
                          (function() {
 
