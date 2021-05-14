@@ -500,7 +500,21 @@ instructions.innerHTML +=
     '<center><a href=http://www.youtube.com/Libraa target=_blank><font color=Blue><b> Libra Youtube </b></font></center></a>'+
     '<center><a href=https://discord.gg/UuVHSZR target=_blank><font color=#72cb31>💡 Discord Group 💡</font></center></a>' +
     '<center><a href=https://www.Libragar.pw target=_blank><font color=Blue>Update to the latest version(Click)</font></center></a>' +
-    '<center></font></center></a><font> The page if sign-in does not appear <a href=https://web.libragar.pw><font color=#72cb31> Refresh </font></center></a>' +
+    '<center></font></center></a><font> The page if sign-in does not appear <a href=https://Agar.io><font color=#72cb31> Refresh </font></center></a>' +
+         '<b><button id="controlkeysbutton"><span style="font-size: 12.5px;"><b>CONTROL ⌨ &nbsp;KEYS</b></b></button>' +
+         '<div style="text-align:center"><span style="font-size: 14.4px;"><font color=Blue><p id="controlkeysparagraf" style="display: none;"> <font color=DarkBlue> <b>&nbsp;&nbsp;||  USER Control   ||  __💡__  || BOT Control  ||&nbsp;&nbsp;  <br>&nbsp;&nbsp;&nbsp;&nbsp;  32x Split " A " &nbsp;&nbsp; &nbsp;______&nbsp;&nbsp;&nbsp;&nbsp;  32x Split " Shift "   </br>  4x Split " R "&nbsp;&nbsp;&nbsp;  &nbsp;______ &nbsp;&nbsp;&nbsp;&nbsp;  4x Split " V "   </br>  8x Split " Y " &nbsp;&nbsp;&nbsp; ______ &nbsp;&nbsp;&nbsp; 8x Split " B "   </br>  16x Split " U " &nbsp;&nbsp;&nbsp; ______ &nbsp;&nbsp;  16x Split " N " &nbsp; </br> Freeze " S "&nbsp;&nbsp;&nbsp;&nbsp; ______ &nbsp;&nbsp;&nbsp; Freeze " T " &nbsp; </br> Selfie Split " Q " &nbsp&nbsp;&nbsp; ______ &nbsp; &nbsp;<span style="font-size: 17.0px;"><font color=Yellow><b>Libragar V1.7 :)</b>&nbsp; &nbsp;&nbsp; &nbsp; </br></div></b> </font></center></a>' ;
+
+
+
+
+    $("#connectlistbutton").click(function(){
+    $("#connectlistparagraf").toggle();
+    });
+
+         $("#controlkeysbutton").click(function(){
+         $("#controlkeysparagraf").toggle();
+
+         });
 
 
 
