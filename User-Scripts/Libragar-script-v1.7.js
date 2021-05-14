@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Github www.Libragar.pw 💡🤵 Libra - Agario YT Public BetaTest Server V1.7 💡
+// @name         Test V. www.Libragar.pw 💡🤵 Libra - Agario YT Public BetaTest Server V1.7 💡
 // @namespace    www.youtube.com/Libraa
 // @homepage     https://www.Libragar.pw
 // @version      1.7 💡
