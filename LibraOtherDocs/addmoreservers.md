@@ -15,7 +15,7 @@ add tip "A" , your "vps ip" , "yoursubdomain2.yourdomain.com"
 		server_name yoursubdomain2.yourdomain.com;
 
 		location / {
-		proxy_pass http://yourserverip:3000;
+		proxy_pass http://yourserverip:4000;
 		proxy_http_version 1.1;
 		proxy_set_header Upgrade $http_upgrade;
 		proxy_set_header Connection "upgrade";
