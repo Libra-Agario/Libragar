@@ -32,12 +32,12 @@ mass      <id> <mass>                       | set cell mass to all of a player's
 merge     <id>                              | instantly merge a player 				   		  💡	 💡
 pardon    <IP address>                      | pardon (unban) specified IP			   		  💡	 💡
 pause                                       | toggle handle pause						  💡	 💡
-players   [world id or "any"] [router type] | display information about players    		    		  💡     💡
+players   [world id or "any"] [router type] | display information about players  		    		  💡     💡
 reload                                      | reload the settings from local settings.json     	 		  💡	 💡
 restart                                     | stop then immediately start the handle 			    	  💡     💡
 rmbot     <world id> [count=1]              | remove player bots from a world			    	          💡     💡
 rmminion  <id> [count]                      | remove assigned minions from a player		   		  💡	 💡	
-routers   [router type]                     | display information about routers and their players	   	  💡	 💡
+routers   [router type]                     | display information about routers and their players ("connection")  💡	 💡
 save                                        | save the current settings to settings.json		   	  💡	 💡
 setting   <name> [value]                    | change/print the value of a setting			   	  💡	 💡
 start                                       | start the handle					    		  💡	 💡
