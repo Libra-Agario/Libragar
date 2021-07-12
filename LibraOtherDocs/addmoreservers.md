@@ -40,9 +40,9 @@ save -> <b>ctrl + o</b> / <b>enter</b> /<b> ctrl + x</b>
 
 `git clone https://github.com/Libra-Agario/Libragar`
 
-`npm install ws`
-
 `cd Libragar`
+
+`npm install ws`
 
 `cd cli`
 
