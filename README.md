@@ -121,8 +121,6 @@ save -> <b>ctrl + o</b> / <b>enter</b> /<b> ctrl + x</b>
 
 `gcc --version`
 
-`sudo apt-get install nano`
-
 `npm install pm2@latest -g`
 
 
