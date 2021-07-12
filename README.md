@@ -38,10 +38,6 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 `apt install npm`
 
-
-
-`apt-get update`
-
 `apt-get install git`
 
 `git --version`
