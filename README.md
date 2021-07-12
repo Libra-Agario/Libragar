@@ -24,6 +24,10 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 `sudo apt-get update`
 
+
+`sudo apt-get upgrade`
+
+
 `sudo apt-get install nodejs`
 
 
@@ -44,11 +48,6 @@ Video Tutorial [![Watch the video](https://i.imgur.com/RHqwwEU.png)](https://you
 
 
 ### 2 - Nginx install 
-
-`sudo apt-get update`
-
-
-`sudo apt-get upgrade`
 
 
 `sudo apt-get install nginx`
