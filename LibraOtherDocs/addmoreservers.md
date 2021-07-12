@@ -42,6 +42,8 @@ save -> <b>ctrl + o</b> / <b>enter</b> /<b> ctrl + x</b>
 
 `npm install ws`
 
+`cd Libragar`
+
 `cd cli`
 
 `nano settings.json`
