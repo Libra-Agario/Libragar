@@ -25,7 +25,7 @@ add tip "A" , your "vps ip" , "yoursubdomain2.yourdomain.com"
 
 save -> <b>ctrl + o</b> / <b>enter</b> /<b> ctrl + x</b>
 
-`ln -s /etc/nginx/sites-available/ffa.conf /etc/nginx/sites-enabled/`
+`ln -s /etc/nginx/sites-available/experimental.conf /etc/nginx/sites-enabled/`
 
 `nginx -t`
 
